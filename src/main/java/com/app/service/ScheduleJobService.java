@@ -19,6 +19,7 @@ public class ScheduleJobService {
 			System.out.println("Fixed Rate Task Executed at "+new Date());
 		}
 	
+		
 	// Setup Schedule Job in every day 10:10:00 PM(Point of Time) 
 		@Scheduled(cron="0 10 22 * * *")
 		public void exTaskShedule2() {
